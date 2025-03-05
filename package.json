@@ -1,0 +1,23 @@
+{
+  "name": "aqa",
+  "version": "1.0.0",
+  "description": "New ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaShabatina/aqa-advanced.git"
+  },
+  "author": "Anna Shabatina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaShabatina/aqa-advanced/issues"
+  },
+  "homepage": "https://github.com/AnnaShabatina/aqa-advanced#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cypress": "^14.1.0"
+  }
+}
