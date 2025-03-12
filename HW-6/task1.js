@@ -1,7 +1,16 @@
 
-
+//Function Declaration
 function getSquareRectang(width,height){
 return width*height;
-}
+} 
 
-console.log(getSquareRectang(2,10));
+
+//Function Expression
+const getSquareRectangle = function(width, height) {
+    return width * height;
+}; 
+
+//Arrow Function
+const getSquareArrow = (width, height) => width * height;
+
+console.log(getSquareRectang(5,10));
