@@ -23,6 +23,6 @@ class EBook extends Book {
   static createEBook(book, formatFile) {
     return new EBook(book.name, book.author, book.yearOfPublication, formatFile);
   }
-}
+};
 
 module.exports = EBook;
